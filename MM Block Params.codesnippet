@@ -3,29 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tbv</string>
+	<string>blp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UITableView *&lt;#tableview#&gt; = [UITableView alloc] initWithFrame:CGRectZero style:&lt;#(UITableViewStyle)#&gt;];
-&lt;#tableview#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
-&lt;#tableview#&gt;.delegate = self;
-&lt;#tableview#&gt;.dataSource = self;
-[&lt;#tableview#&gt; registerClass:[UITableViewCell class] forCellWithReuseIdentifier:NSStringFromClass([UITableViewCell class])];
-[&lt;#superView#&gt; addSubview:&lt;#tableview#&gt;];
-</string>
+	<string>(&lt;#returnType#&gt; (^)(&lt;#parameterTypes#&gt;))&lt;#blockName#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>625303F1-5944-493B-9241-2A2AE9AF64E8</string>
+	<string>2A0E0685-8235-418C-B6C1-94A67804BE24</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UITableView</string>
+	<string>Block Params</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MM UITableView</string>
+	<string>MM Block Params</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

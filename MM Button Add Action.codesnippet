@@ -3,29 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tbv</string>
+	<string>ada</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UITableView *&lt;#tableview#&gt; = [UITableView alloc] initWithFrame:CGRectZero style:&lt;#(UITableViewStyle)#&gt;];
-&lt;#tableview#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
-&lt;#tableview#&gt;.delegate = self;
-&lt;#tableview#&gt;.dataSource = self;
-[&lt;#tableview#&gt; registerClass:[UITableViewCell class] forCellWithReuseIdentifier:NSStringFromClass([UITableViewCell class])];
-[&lt;#superView#&gt; addSubview:&lt;#tableview#&gt;];
+	<string>    [&lt;#control#&gt; addTarget:self action:@selector(&lt;#controlName#&gt;Click) forControlEvents:UIControlEventTouchUpInside];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>625303F1-5944-493B-9241-2A2AE9AF64E8</string>
+	<string>387FCA57-FDC7-4E03-9516-3DDF3F0E36F8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UITableView</string>
+	<string>Control Action</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MM UITableView</string>
+	<string>MM Control Action</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
