@@ -27,7 +27,7 @@ rm -rf ~/Library/Developer/Xcode/UserData/CodeSnippets/*
 
 ## Code-Snippet列表
 
-### Ini
+### Init
 
 - property
 - lazy init
