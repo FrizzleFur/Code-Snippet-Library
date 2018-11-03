@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cll</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+flowLayout.itemSize = CGSizeZero;
+flowLayout.minimumLineSpacing = 0;
+flowLayout.minimumInteritemSpacing = 0;
+flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+
+UICollectionView * &lt;#collectionView#&gt; = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flowLayout];
+&lt;#collectionView#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+&lt;#collectionView#&gt;.delegate = self;
+&lt;#collectionView#&gt;.dataSource = self;
+[&lt;#collectionView#&gt; registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:collectionCellIdentifier];
+[self addSubview:&lt;#collectionView#&gt;];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7E8A4A8E-64DA-4783-BC93-3CF1E9EF6206</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>CollectionVIew</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MM CollectionVIew</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

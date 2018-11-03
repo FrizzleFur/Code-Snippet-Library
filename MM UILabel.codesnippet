@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lb</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UILabel *&lt;#label#&gt; = [[UILabel alloc] init];
+&lt;#label#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+&lt;#label#&gt;.font = &lt;#UIFont#&gt;;
+&lt;#label#&gt;.text = &lt;#string#&gt;;
+&lt;#label#&gt;.textColor = &lt;#UIColor#&gt;;
+&lt;#label#&gt;.textAlignment = &lt;#textAlignment#&gt;;
+[&lt;#superView#&gt; addSubview:&lt;#label#&gt;];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C1CCBAA6-2D42-423C-BB92-092E98E25E51</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UILabel</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MM UILabel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
