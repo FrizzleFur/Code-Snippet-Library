@@ -14,7 +14,6 @@
 &lt;#label#&gt;.font = &lt;#UIFont#&gt;;
 &lt;#label#&gt;.text = &lt;#string#&gt;;
 &lt;#label#&gt;.textColor = &lt;#UIColor#&gt;;
-&lt;#label#&gt;.textAlignment = &lt;#textAlignment#&gt;;
 [&lt;#superView#&gt; addSubview:&lt;#label#&gt;];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
