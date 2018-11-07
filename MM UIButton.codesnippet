@@ -15,10 +15,10 @@
 [&lt;#button#&gt; setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:UIControlStateNormal];
 [&lt;#button#&gt; setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
 &lt;#button#&gt;.backgroundColor = &lt;#UIColor#&gt;;
-[&lt;#button#&gt; addTarget:self action:@selector(buttonDidClick) forControlEvents:UIControlEventTouchUpInside];
+[&lt;#button#&gt; addTarget:self action:@selector(btnDidClick) forControlEvents:UIControlEventTouchUpInside];
 [&lt;#superView#&gt; addSubview:&lt;#button#&gt;];
 
-- (void)buttonDidClick {
+- (void)btnDidClick {
     &lt;#Action#&gt;
 }
 </string>

@@ -12,8 +12,7 @@
 	<string>if (_&lt;#var#&gt; == nil) {
     _&lt;#var#&gt; = [&lt;#Class#&gt; new];
 }
-return _&lt;#var#&gt;;
-</string>
+return _&lt;#var#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9FB3222C-FD3C-4343-B209-F412D814A900</string>
 	<key>IDECodeSnippetLanguage</key>
