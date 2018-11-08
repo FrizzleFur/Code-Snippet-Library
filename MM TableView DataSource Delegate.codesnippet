@@ -9,11 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - UITableView Datasource
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return &lt;#numberOfSections#&gt;;
-}
+	<string>// MARK: - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return &lt;#numberOfRowsInSection#&gt;;
@@ -26,10 +22,10 @@
     return cell;
 }
 
-#pragma mark - UITableViewDelegate
+// MARK: - UITableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 50;
+    return &lt;#rowheight#&gt;;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
