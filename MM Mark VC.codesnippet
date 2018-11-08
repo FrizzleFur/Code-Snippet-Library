@@ -9,17 +9,17 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK : Lazy
+	<string>// MARK: - Lazy
 
-// MARK : View life cycle
+// MARK: - View life cycle
 
-// MARK : Data
+// MARK: - Data
 
-// MARK : Function
+// MARK: - Function
 
-// MARK : Action
+// MARK: - Action
 
-// MARK : Delegate
+// MARK: - Delegate
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6BF16872-F4FB-45D6-B9A6-CEE00961C72F</string>
