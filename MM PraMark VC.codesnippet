@@ -3,37 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mrvc</string>
+	<string>prvc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK : Lazy
+	<string>#pragma mark - Lazy
 
-// MARK : View life cycle
+#pragma mark - View life cycle
 
-// MARK : Data
+#pragma mark - Data
 
-// MARK : Function
+#pragma mark - Function
 
-// MARK : Action
-
-// MARK : Delegate
+#pragma mark - Action
+    
+#pragma mark - Delegate
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6BF16872-F4FB-45D6-B9A6-CEE00961C72F</string>
+	<string>346287D1-E51E-4D0D-B334-700FA0317494</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>// MARK</string>
+	<string>PraMark</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MM Mark VC</string>
+	<string>MM PraMark VC</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
