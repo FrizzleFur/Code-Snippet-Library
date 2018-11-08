@@ -18,7 +18,7 @@
 [&lt;#button#&gt; addTarget:self action:@selector(btnDidClick) forControlEvents:UIControlEventTouchUpInside];
 [&lt;#superView#&gt; addSubview:&lt;#button#&gt;];
 
-- (void)btnDidClick {
+- (void)btnDidClick{
     &lt;#Action#&gt;
 }
 </string>
