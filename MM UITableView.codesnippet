@@ -13,7 +13,7 @@
 &lt;#tableview#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
 &lt;#tableview#&gt;.delegate = self;
 &lt;#tableview#&gt;.dataSource = self;
-[&lt;#tableview#&gt; registerClass:[UITableViewCell class] forCellWithReuseIdentifier:NSStringFromClass([UITableViewCell class])];
+[&lt;#tableview#&gt; registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
 [&lt;#superView#&gt; addSubview:&lt;#tableview#&gt;];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
