@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cld</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - UICollectionViewDataSource
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return &lt;#numberOfItemsInSection#&gt;;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:GetClassNameStr(UICollectionViewCell) forIndexPath:indexPath];
+    &lt;#cell.productModel = self.modelList[indexPath.row];#&gt;
+    return cell;
+}
+
+// MARK: - UICollectionViewDelegate
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+}
+
+// MARK: - UICollectionViewDelegateFlowLayout
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    return CGSizeMake(&lt;#collectItemWidth#&gt;, &lt;#collectItemHeight#&gt;);
+}
+
+// 为collection view添加一个补充视图(页眉或页脚)
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
+    if ([kind isEqual:UICollectionElementKindSectionHeader]) {
+        UICollectionReusableView *sectionHeader = [collectionView  dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:GetClassNameStr(UICollectionReusableView) forIndexPath:indexPath];
+        return sectionHeader;
+    }else if ([kind isEqual:UICollectionElementKindSectionFooter]) {
+        UICollectionReusableView *sectionFooter = [collectionView  dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:GetClassNameStr(UICollectionReusableView) forIndexPath:indexPath];
+        sectionFooter.backgroundColor = [UIColor whiteColor];
+        return sectionFooter;
+    }
+    return nil;
+}
+
+// 设定页眉的尺寸
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section {
+    return CGSizeMake(collectionView.width, &lt;#collectHeaderHeight#&gt;);
+}
+
+// 设定页脚的尺寸
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForFooterInSection:(NSInteger)section {
+    return CGSizeMake(collectionView.width, &lt;#collectFooterHeight#&gt;);
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6EE0D309-23FE-477B-ADC4-67A72BCFDE1D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>My Collection DataSource Delegate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My Collection DataSource Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
