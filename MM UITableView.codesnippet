@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UITableView *&lt;#tableview#&gt; = [UITableView alloc] initWithFrame:CGRectZero style:&lt;#(UITableViewStyle)#&gt;];
+	<string>UITableView *&lt;#tableview#&gt; = [[UITableView alloc] initWithFrame:CGRectZero style:&lt;#(UITableViewStyle)#&gt;];
 &lt;#tableview#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
 &lt;#tableview#&gt;.delegate = self;
 &lt;#tableview#&gt;.dataSource = self;

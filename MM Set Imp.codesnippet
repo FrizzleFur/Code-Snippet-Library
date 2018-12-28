@@ -12,8 +12,7 @@
 	<string>if (_&lt;#var#&gt; != &lt;#var#&gt;) {
     _&lt;#var#&gt; = &lt;#var#&gt;;
     [self &lt;#update#&gt;];
-}
-</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>781414B2-0EEE-451E-A162-F3673B0BE6A3</string>
 	<key>IDECodeSnippetLanguage</key>
