@@ -9,11 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Lazy
-
-
-
-// MARK: - View life cycle
+	<string>// MARK: - View life cycle
 
 
 
@@ -30,6 +26,10 @@
 
 
 // MARK: - Delegate
+
+
+
+// MARK: - Lazy
 
 
 
