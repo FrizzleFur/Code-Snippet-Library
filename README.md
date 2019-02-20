@@ -9,8 +9,9 @@ Xcode 的 Code Snippet Library 路径为:
 
 ```
 ~/Library/Developer/Xcode/UserData/CodeSnippets/
-
 ```
+
+
 `Cmd + Shift + G` 可以直接访问这个目录
 
 Github上新建仓库名为Code Snippet Library 然后克隆到上面的目录就可以, 如果被提示目录非空, 不能Clone into, 就先到这个目录
