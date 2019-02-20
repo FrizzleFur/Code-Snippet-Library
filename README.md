@@ -30,30 +30,56 @@ rm -rf ~/Library/Developer/Xcode/UserData/CodeSnippets/*
 ### Init
 
 - property
-- lazy init
-- set
+    - `pc` -  定义一个 copy 的 property
+    - `ps` - 定义一个 strong 的property
+    - `blp` - 定义一个 Block 的property
+- setter
+    - `st` - 定义`setter`方法
+
+```objc
+if (_<#var#> != <#var#>) {
+    _<#var#> = <#var#>;
+    [self <#update#>];
+}
+```
+- getter
+    - `gt` - 定义`getter`方法
+
+```objc
+if (_<#var#> != <#var#>) {
+    _<#var#> = <#var#>;
+    [self <#update#>];
+}
+```
 
 ### UIKit
 
 - button
+    - `btn` - 定义一个 UIButton
+    - `ada` - 定义一个 Action
 - label
+    - `lb` - 定义一个 UILabel
 - imageview
-- table
+    - `m` - 定义一个 UIImageview
+- tableView
+    - `tbv` - 定义一个 `UITableView`
+    - `tbd` - 定义 `UITableView`的代理和Source
 - collectionView
-- table datasource
+    - `cl` - 定义一个 `UICollectionView`
 
 ### View life cycle
 
-- collectionView
 - prama mark
+    - `/` - 定义一段注释 `/** <#remark#> */`
+    - `prvc` - 定义VC分割注释
 
 ## Todo 
 
 - [x] 命名各个Code-Snippet，添加前缀
 - [x] 修改合适的Code-Snippet，代码
-- [ ] 查漏补缺
-- [ ] 文档上列出，将其分类
-- [ ] 完善Readme,补充教程
+- [x] 查漏补缺
+- [x] 文档上列出，将其分类
+- [x] 完善Readme,补充教程
 
 ## 资源
 
