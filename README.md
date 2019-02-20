@@ -55,6 +55,10 @@ rm -rf ~/Library/Developer/Xcode/UserData/CodeSnippets/*
 - [ ] 文档上列出，将其分类
 - [ ] 完善Readme,补充教程
 
+## 资源
+
+[QMUI/QMUI_iOS_CodeSnippets: 用于Xcode使用的iOS通用代码片段，其中也包含若干专用于QMUI iOS框架的代码片段。](https://github.com/QMUI/QMUI_iOS_CodeSnippets)
+
 ## 参考
 
 ### 代码段
